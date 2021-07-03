@@ -1,3 +1,7 @@
+# This workflow checks lint and tsc on push and pr to main, also caching dependencies
+
+name: Node.js CI
+
 on:
   push:
     branches:
@@ -35,18 +39,16 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-        - Run CI
-          run: make all -j
-#       - name: Install dependencies
-#         run: npm i
+      - name: Install dependencies
+        run: npm i
 
-#       - name: Tsc
-#         run: npm run tsc
+      - name: Tsc
+        run: npm run tsc
 
-#       - name: Lint
-#         run: npm run lint
+      - name: Lint
+        run: npm run lint
 
-#       - name: Unit tests
-#         run: npm run test
-#       - name: Build
-#         run: npm run build
+      - name: Unit tests
+        run: npm run test
+      - name: Build
+        run: npm run build
