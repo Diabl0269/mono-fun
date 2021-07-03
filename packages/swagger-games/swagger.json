@@ -3,7 +3,7 @@
   "info" : {
     "title" : "My First Design API",
     "description" : "My first swagger API from scratch",
-    "version" : "1.0.0"
+    "version" : "1.0.1"
   },
   "servers" : [ {
     "url" : "https://virtserver.swaggerhub.com/Diabl0269/MyFirstDesignedApi/1.0.0",
