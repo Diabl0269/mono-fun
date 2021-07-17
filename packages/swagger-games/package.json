@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@dtsgenerator/replace-namespace": "^1.4.1",
-    "@types/node-fetch": "^2.5.10",
-    "dtsgenerator": "^3.12.1"
+    "@dtsgenerator/replace-namespace": "1.4.1",
+    "@types/node-fetch": "2.5.10",
+    "dtsgenerator": "3.12.1"
   }
 }
